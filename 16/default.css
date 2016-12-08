@@ -1,0 +1,30 @@
+/*
+変形
+
+ペンダープレフィックス
+-moz-
+-o-
+-webkit-
+-ms-
+*/
+
+div {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}	
+
+#box1 {
+	background: skyblue;
+	opacity: .5;
+}
+
+#box2 {
+	background: orange;
+	opacity: .5;
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
